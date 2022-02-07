@@ -37,7 +37,7 @@ public class GameWindow extends JFrame implements ActionListener{
     j.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     j.setLayout(new BorderLayout());
     label = new JLabel("");
-    label2 = new JLabel("<html>You are @<br>WASD to move<br>H to use heal potion<br>Move into an enemy \"E\" to attack it<br>Collect a key \"K\" and enter door \"0\"<br>Also click this window before inputting</html>", SwingConstants.CENTER);
+    label2 = new JLabel("<html>You are @<br>WASD to move<br>H to use heal potion<br>Move into an enemy \"E\" to attack it<br>Collect a key \"K\" and enter door \"0\"</html>", SwingConstants.CENTER);
     label3 = new JLabel("");
     panel.add(label);
     panel2.add(label2);
@@ -66,10 +66,10 @@ public class GameWindow extends JFrame implements ActionListener{
    
     
 
-    // works without doing anything sometimes, sometimes doesnt???? why
+
     while (!game.playerDead())
     {
-      //label2.setText(label2.getText() + "");
+
     } 
     
     
@@ -84,7 +84,7 @@ public class GameWindow extends JFrame implements ActionListener{
     "And so our brilliant @ was slain...<br>" +
     "You have conquered: " + floors + "<br>"  + 
     "</html>";
-    ;
+
     
     JLabel lose = new JLabel(death, SwingConstants.CENTER);
     
