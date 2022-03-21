@@ -1,2 +1,2 @@
 # random-small-roguelike
-school stuff
+java gui more like never
