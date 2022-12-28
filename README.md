@@ -1,2 +1,2 @@
 # random-small-roguelike
-java gui more like never
+java gui with just text
